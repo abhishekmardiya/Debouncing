@@ -1,2 +1,2 @@
 # Debouncing
-Debouncing using vanilla JavaScript
+Debouncing using Vanilla JavaScript
