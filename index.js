@@ -3,7 +3,7 @@ async function searchMovie() {
     let movie = document.getElementById("query").value;
 
     let res = await fetch(
-      `https://www.omdbapi.com/?apikey=e1d0b10f&s=${movie}`
+      `https://www.omdbapi.com/?apikey="enter your API key"=${movie}`
     );
     let data = await res.json();
     // console.log(data.Search);
