@@ -12,7 +12,7 @@ async function searchMovie() {
     console.log(err);
   }
 }
-
+  
 async function main() {
   let data = await searchMovie();
   if (data === undefined) {
